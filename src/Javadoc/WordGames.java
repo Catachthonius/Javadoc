@@ -11,15 +11,15 @@ public class WordGames {
     Scanner input = new Scanner(System.in)
 
     void addHelloWord(){
-        System.out.println("Enter word: ");
+        System.out.println("Input word: ");
         String word = input.nextLine();
         System.out.println("Hello " + word);
     }
 
     void getFullName(){
-        System.out.println("Insert your name: ");
+        System.out.println("Input name: ");
         String name = input.nextLine();
-        System.out.println("\n Insert your surname: ");
+        System.out.println("\n Input surname: ");
         String surname = input.nextLine();
         System.out.println(name + " " + surname);
     }
